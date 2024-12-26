@@ -6,7 +6,7 @@ export const PlayerContext = createContext()
 
 const PlayerContextProvider = (props) => {
 
-    const url = 'http://localhost:4000'
+    const url = 'https://spotify-clone-o653.onrender.com'
     
     const audioRef = useRef()
     const seekBg = useRef()
